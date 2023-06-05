@@ -1,12 +1,5 @@
-import React from "react";
-import Particles from "react-tsparticles";
-import "./App.css";
-
-export default function App() {
-  return (
-    <Particles
-      options={{
-        autoPlay: true,
+const particlesConfig = {
+    autoPlay: true,
     background: {
       color: {
         value: "#0d0d0d"
@@ -555,7 +548,6 @@ export default function App() {
     themes: [],
     zLayers: 100,
     emitters: []
-      }}
-    />
-  );
-}
+    }
+
+export default particlesConfig
