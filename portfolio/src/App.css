@@ -11,6 +11,14 @@
   justify-content: center;
   margin-top: 50vh;
 }
+#beondFirstFrame {
+  position:absolute;
+  justify-content: center;
+  margin-top:50vh;
+  background-color: white;
+  width: 100vw;
+  height: 50vh;
+}
 div {
   font-size:larger;
   font-weight: bolder;
