@@ -4,7 +4,8 @@ import "./App.css";
 
 export default function App() {
   return (
-    <Particles
+    <div>
+      <Particles id="tsparticles"
       options={{
         autoPlay: true,
     background: {
@@ -54,7 +55,7 @@ export default function App() {
           mode: [],
           parallax: {
             enable: true,
-            force: 10,
+            force: -80,
             smooth: 10
           }
         },
@@ -556,6 +557,12 @@ export default function App() {
     zLayers: 100,
     emitters: []
       }}
-    />
+      />
+      <div id="container">
+        <div>Hi, I'm Theodore!</div>
+      </div>
+      
+    </div>
+    
   );
 }
