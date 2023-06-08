@@ -16,7 +16,7 @@ const Title = () => {
     }
     }, [index])
     return(
-        <h2>{text}</h2>
+        <h1 id="title">{text}</h1>
     );
 }
 

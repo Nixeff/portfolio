@@ -1,9 +1,10 @@
 #tsparticles {
-  width: 150%;
-  height: 150%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  top: 0;
+  top: -50;
   left: 0;
 }
 #container {
@@ -12,6 +13,7 @@
   margin-top: 45vh;
 }
 #beondFirstFrame {
+  display: flex;
   position:absolute;
   justify-content: center;
   margin-top:50vh;
@@ -19,8 +21,25 @@
   width: 100vw;
   height: 50vh;
 }
-div {
-  font-size:larger;
+#title {
   font-weight: bolder;
   color:white
+}
+
+img {
+  width: 600;
+  height: 600;
+}
+#slide {
+
+}
+
+#text {
+  color:gray;
+}
+#item {
+  display: flex;
+  background-color: gainsboro;
+  width: 1000px;
+  height: 600px;
 }
