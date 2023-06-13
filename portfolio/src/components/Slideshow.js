@@ -26,18 +26,10 @@ export function Slideshow({ children, className, style }) {
   console.log(context.items);
 
   return (
-    <div style={{ display: "flex" }}>
+    <div id="slideShowBody">
       <button onClick={() => moveSlide("prev")}>prev</button>
       <SlideshowContext.Provider value={[context, setContext]}>
-        <div
-          style={{
-            margin: "10px",
-            height: "600px",
-            width: "1000px",
-            position: "relative",
-            overflow: "hidden"
-          }}
-        >
+        <div id="slideShowBodyBody">
           {children}
         </div>
       </SlideshowContext.Provider>
@@ -89,15 +81,7 @@ export function SlideshowItem({ children }) {
   }
 
   return (
-    <div
-      style={{
-        transition: "0.5s",
-        position: "absolute",
-        top: 0,
-        left: left,
-        zIndex: zIndex
-      }}
-    >
+    <div id="innerItem">
       {children}
     </div>
   );
