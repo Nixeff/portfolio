@@ -14,6 +14,7 @@ export default function App() {
       <div id="container">
         <Title/>
       </div>
+      <h2 id="projectTitle">My Projects</h2>
       <div id="beondFirstFrame">
         
         <Slideshow width={100} height={100}>
@@ -62,6 +63,9 @@ export default function App() {
             </div>
           </SlideshowItem>
         </Slideshow>
+      </div>
+      <div id="secondArea">
+
       </div>
     </div>
     

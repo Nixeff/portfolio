@@ -12,15 +12,33 @@
   justify-content: center;
   margin-top: 45vh;
 }
+#projectTitle{
+  color:white;
+  margin-top: 50vh;
+  font-size:larger;
+}
 #beondFirstFrame {
   display: flex;
   position:absolute;
   justify-content: center;
   overflow: auto;
-  margin-top:50vh;
-  background-color: white;
-  width: 100vw;
+  margin-left: 10vw;
+  background-color: rgba(136, 136, 136, 0.5);
+  width: 80vw;
   height: 50vh;
+}
+#beondFirstFrame > h2{
+  position: relative;
+  justify-content: center;
+}
+
+#secondArea{
+  margin-left: 10vw;
+  margin-top: 120vh;
+  position: absolute;
+  width: 80vw;
+  height: 25vh;
+  background-color: rgba(10, 10, 10, 0.5);
 }
 
 #slideShowBody{
